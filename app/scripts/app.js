@@ -20,4 +20,5 @@
     angular
         .module('blocJams', ['ui.router'])
         .config(config);
+
 })();
