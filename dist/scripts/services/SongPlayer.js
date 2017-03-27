@@ -95,6 +95,12 @@
           */
           SongPlayer.currentVolume = null;
 
+          /**
+          * @desc Max volume
+          * @type {Number}
+          */
+          SongPlayer.maxVolume = 100;
+
           SongPlayer.play = function(song) {
              song = song || SongPlayer.currentSong;
              if (SongPlayer.currentSong !== song) {
